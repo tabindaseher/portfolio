@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -8,15 +9,15 @@ const Footer = () => {
             <div className="mb-4 md:mb-0">
            
               <div className=" flex  space-x-6">
-                <a href="https://www.linkedin.com/in/tabinda-seher/" target="_blank" rel="noopener noreferrer" className="text-black font-semibold hover:text-gray-300">
+                <Link href="https://www.linkedin.com/in/tabinda-seher/" target="_blank" rel="noopener noreferrer" className="text-black font-semibold hover:text-gray-300">
                    LinkedIn
-                </a>
-                <a href="https://github.com/tabindaseher" target="_blank" rel="noopener noreferrer" className="text-black font-semibold hover:text-gray-300">
+                </Link>
+                <Link href="https://github.com/tabindaseher" target="_blank" rel="noopener noreferrer" className="text-black font-semibold hover:text-gray-300">
                  GitHub
-                </a>
-                <a href="seher616@gmail.com" className="text-black font-semibold hover:text-gray-300">
+                </Link>
+                <Link href="seherqureshi0602@gmail.com" className="text-black font-semibold hover:text-gray-300">
                    Email
-                </a>
+                </Link>
               </div>
             </div>
   
